@@ -1,0 +1,105 @@
+body {
+	margin: 0;
+	font-family: Arial;
+	background: url("../img/back.png") repeat;
+}
+header {
+	background: #eff3f7;
+	padding: 33px 0;
+}
+footer {
+	background: #eff3f7;
+	padding: 22px 0;
+}
+.container_header {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo {
+	float: left;
+	overflow: hidden;
+}
+.hidden_text {
+	visibility: hidden;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+.social_buttons {
+	float: right;
+	text-align: right;
+	overflow: hidden;
+	list-style: none;
+	margin: 0;
+	display: inline;
+}
+.social_buttons  li {
+	display: inline;
+}
+.social_buttons div {
+	float: left;
+	margin-right: 17px;
+}
+/*.dz4-soc-seti div {
+	float: right;
+	margin-right: 26px;
+}*/
+.social_button_vk {
+	width: 47px;
+	height: 47px;
+	background: url(../img/social_spr.png) -47px 0px;
+}
+.social_button_vk:hover {
+	width: 47px;
+	height: 47px;
+	background: url(../img/social_spr.png) -47px -47px;
+}
+.social_button_tv {
+	width: 47px;
+	height: 47px;
+	background: url(../img/social_spr.png) -94px 0px;
+}
+.social_button_tv:hover {
+	width: 47px;
+	height: 47px;
+	background: url(../img/social_spr.png) -94px -47px;
+}
+.social_button_fb {
+	width: 47px;
+	height: 47px;
+	background: url(../img/social_spr.png) 0px 0px;
+}
+.social_button_fb:hover {
+	width: 47px;
+	height: 47px;
+	background: url(../img/social_spr.png) 0px -47px;
+}
+.social_button_git {
+	width: 47px;
+	height: 47px;
+	background: url(../img/social_spr.png) -141px -94px;
+}
+.social_button_git:hover {
+	width: 47px;
+	height: 47px;
+	background: url(../img/social_spr.png) -141px -141px;
+}
+.line {
+	width: 100%;
+	height: 3px;
+	background: rgba(231,239,243,1);
+	background-image: -moz-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+}
+
+.line_bottom {
+	margin-top: 25px;
+
+}
+
+.avatar {
+	border-radius: 50%;
+	border: 6px solid #30a6bd;
+}
