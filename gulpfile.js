@@ -10,6 +10,9 @@ gulp.task('connect', function() {
   });
 });
  
+gulp.task('openbrowser', function() {
+  opn( 'http://localhost:8888' );
+});
 gulp.task('html', function () {
   gulp.src('./app/*.html')
     .pipe(connect.reload());
@@ -29,5 +32,5 @@ gulp.task('watch', function () {
   gulp.watch(['./app/js/*.js'], ['js']);
 });
  
-gulp.task('default', ['connect', 'watch']);
+gulp.task('default', ['connect', 'openbrowser', 'watch']);
 
